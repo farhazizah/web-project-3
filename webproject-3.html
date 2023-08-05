@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web project-3 -Farhabook</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="css/webproject-4.css">
+
+    <!-- icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+           <div class="navbar-logo">
+                <p><span>F</span>arhabook</p>
+                <div class="navbar-icon">
+                   <a href="#"> <i class='bx bx-bell'></i></a>
+                    <a href="#"><i class='bx bx-envelope'></i></a>
+                    <a href="#"><i class='bx bx-desktop' ></i></a>
+               </div>
+           </div>
+           
+           <div class="search">
+                <div class="pencari">
+                    <i class='bx bx-search'></i>
+                    <input type="search" name="search" placeholder="Search" >
+                </div>
+                <div class="profile online">  
+                    <div class="dropdown">
+                        <img src="image/farha.jpeg" alt="farha" >
+                        <div class="dropdown-content">
+                            <div>
+                                <a href="#" class="your">
+                                    <img src="image/farha.jpeg" alt="">
+                                    <p>Your Account</p>
+                                </a>
+                            </div>
+                            <hr>
+                            <div>
+                                <a href="#">Switch Account</a>
+                            </div>
+                            <hr>
+                            <div>
+                                <a href="#">
+                                    <i class='bx bxs-cog'></i>
+                                    <p>Setting</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="yours">
+                                    <i class='bx bx-log-out'></i>
+                                    <p>LogOut</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </nav>
+    </header>
+
+    <!-- content -->
+    <div class="container">
+        <!-- LEFT SIDE  -->
+        <div class="left-side">
+            <div class="setting">
+                <a href="#" title="Latest News"><i class='bx bx-news'></i> <span>Latest News</span></a>
+                <a href="#" title="Friends"><i class='bx bx-group'></i><span>Friends</span></a>
+                <a href="#" title="Groups"><i class='bx bxs-group'></i> <span>Group</span></a>
+                <a href="#" title=" Marketplace"><i class='bx bxs-cart-alt'></i><span>Marketplace</span></a>
+                <a href="#" title=" Watch"><i class='bx bx-tv'></i><span>Watch</span></a>
+                <a href="#"><p>See More</p></a>
+            </div>
+            <hr>
+            <div class="channel">
+                <p>Your Shortcuts</p>
+                <div class="aside-chanel">
+                    <a href="#">
+                        <img src="image/gedung-1.jpeg" alt="web Development">
+                        <span title="Web Development">Web Development</span>
+                    </a>
+                    <a href="#">
+                        <img src="image/gedung-2.jpeg" alt="Web Design course">
+                        <span title="Web Design course">Web Design course</span>
+                    </a>
+                    <a href="#">
+                        <img src="image/gedung-3.jpeg" alt="Full stack Development">
+                        <span title="Full stack Development">Full stack Development</span>
+                    </a>
+                    <a href="#">
+                        <img src="image/download.jpg" alt="website Experts">
+                        <span title="Website Experts">Website Experts</span>
+                    </a>
+            </div>
+            </div>
+        </div>
+
+        <!-- MAIN SIDE  -->
+        <div class="main-content">
+            <div class="story">
+                <div class="story-box mystory" style="background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url('image/farha.jpeg');">
+                    <i class='bx bxs-plus-circle'></i>
+                    <h4>Post Story</h4>
+
+                </div>
+
+                <div class="story-box" style="background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url('image/gedung-1.jpeg');">
+                    <div><img src="image/farha.jpeg" alt="Firdaa"></div>
+                    <h4>Firdaa</h4>
+                </div>
+                <div class="story-box sec-last-box" style="background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url('image/download.jpg');">
+                    <div><img src="image/farha.jpeg" alt="Firdaa"></div>
+                    <h4>Aull</h4>
+                </div>
+                <div class="story-box sec-last-box" style="background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url('image/download.jpg');" >
+                    <div><img src="image/farha.jpeg" alt="Firdaa" ></div>
+                    <h4>Ekeyy</h4>
+                </div>
+
+                <div class="story-box last-box" style="background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url('image/gedung-2.jpeg');" >
+                    <div><img src="image/farha.jpeg" alt="Awa"></div>
+                    <h4>Awa</h4>
+                </div>
+            </div>
+
+            <section class="tweet">
+                <div class="tweet-box">
+                    <img src="image/farha.jpeg" alt="farha">
+                    <div class="tweet-text">
+                        <h4>Azizah Farhaty</h4>
+                        <select name="private" id="private">
+                            <option value="public" autofocus>Public</option >
+                            <option value="private">Private</option>
+                        </select>
+                        <textarea rows="3" placeholder="What's on your mind, farha?"></textarea>
+                        
+                        <div class="icon-tweet">
+                            <span><i class='bx bxs-video-plus'></i>
+                                <h4>Use Video</h4>
+                            </span>
+                            <span>
+                                <i class='bx bxs-camera'></i>
+                                <h4>Photo/Video</h4>
+                            </span>
+                            <span>
+                                <i class='bx bx-face'></i>
+                                <h4>Feeling/Activity</h4>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="user-profile">
+                    <div class="image">
+                        <img src="image/farha.jpeg" alt="farha">
+                    </div>
+                    <div class="post-name">
+                        <h4>Azizah Farhaty</h4>
+                        <small>July 29 2023, 4:40 pm</small>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sapiente iusto neque magni provident adipisci, eos cumque a nisi deserunt vel! Alias quo similique, necessitatibus nulla aperiam iusto placeat voluptatum.</p>
+                    <img src="image/gedung-1.jpeg" alt="gedung">
+                    <div class="icon-like">
+                        <span>
+                            <i class='bx bxs-like'></i> <p>600K</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-chat'></i> <p>200</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-share'></i> <p>95</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="user-profile">
+                    <div class="image">
+                        <img src="image/farha.jpeg" alt="farha">
+                    </div>
+                    <div class="post-name">
+                        <h4>Azizah Farhaty</h4>
+                        <small>July 29 2023, 4:40 pm</small>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sapiente iusto neque magni provident adipisci, eos cumque a nisi deserunt vel! Alias quo similique, necessitatibus nulla aperiam iusto placeat voluptatum.</p>
+                    <img src="image/gedung-2.jpeg" alt="gedung">
+                    <div class="icon-like">
+                        <span>
+                            <i class='bx bxs-like'></i> <p>600K</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-chat'></i> <p>200</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-share'></i> <p>95</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="user-profile">
+                    <div class="image">
+                        <img src="image/farha.jpeg" alt="farha">
+                    </div>
+                    <div class="post-name">
+                        <h4>Azizah Farhaty</h4>
+                        <small>July 29 2023, 4:40 pm</small>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sapiente iusto neque magni provident adipisci, eos cumque a nisi deserunt vel! Alias quo similique, necessitatibus nulla aperiam iusto placeat voluptatum.</p>
+                    <img src="image/gedung-3.jpeg" alt="gedung">
+                    <div class="icon-like">
+                        <span>
+                            <i class='bx bxs-like'></i> <p>600K</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-chat'></i> <p>200</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-share'></i> <p>95</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="user-profile">
+                    <div class="image">
+                        <img src="image/farha.jpeg" alt="farha">
+                    </div>
+                    <div class="post-name">
+                        <h4>Azizah Farhaty</h4>
+                        <small>July 29 2023, 4:40 pm</small>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sapiente iusto neque magni provident adipisci, eos cumque a nisi deserunt vel! Alias quo similique, necessitatibus nulla aperiam iusto placeat voluptatum.</p>
+                    <img src="image/gedung-1.jpeg" alt="gedung">
+                    <div class="icon-like">
+                        <span>
+                            <i class='bx bxs-like'></i> <p>600K</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-chat'></i> <p>200</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-share'></i> <p>95</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="user-profile">
+                    <div class="image">
+                        <img src="image/farha.jpeg" alt="farha">
+                    </div>
+                    <div class="post-name">
+                        <h4>Azizah Farhaty</h4>
+                        <small>July 29 2023, 4:40 pm</small>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sapiente iusto neque magni provident adipisci, eos cumque a nisi deserunt vel! Alias quo similique, necessitatibus nulla aperiam iusto placeat voluptatum.</p>
+                    <img src="image/gedung-2.jpeg" alt="gedung">
+                    <div class="icon-like">
+                        <span>
+                            <i class='bx bxs-like'></i> <p>600K</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-chat'></i> <p>200</p>
+                        </span>
+                        <span>
+                            <i class='bx bxs-share'></i> <p>95</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="btn">
+                    <a href="#">Load More</a>
+                </div>
+            </section>
+        </div>
+        <!-- RIGTH SIDE  -->
+        <div class="right-side">
+            <div class="event">
+                <div class="event-text">
+                    <h4>Events</h4>
+                    <a href="#">See all</a>
+                </div>
+                <div class="date">
+                    <div class="date-box">
+                        <div class="tgl">18</div>
+                        <div class="date-text">
+                            <h4>Social Media</h4>
+                            <p><i class='bx bx-map'></i><span>Willson Teach Park</span></p>
+                            <a href="#">More Info</a>
+                        </div>
+                    </div>
+                    <div class="date-box">
+                        <div class="tgl">22</div>
+                        <div class="date-text">
+                            <h4>Mobile Market</h4>
+                            <p> <i class='bx bx-map'></i><span>Willson Teach Park</span></p>
+                            <a href="#">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="iklan">
+                <div class="iklan-text">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+                <div class="iklan-img">
+                    <img src="image/farha.jpeg" alt="iklan">
+                </div>
+            </div>
+            <div class="obrolan">
+                <div class="obrolan-header">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide Chat</a>
+                </div>
+                <div class="obrolan-box">
+                    <a href="#">
+                        <div class="img-user abc">
+                            <img src="image/farha.jpeg" alt="Farha">  
+                        </div>
+                        <h4>Azizah Farhaty</h4>
+                    </a>
+                </div>
+                <div class="obrolan-box">
+                    <a href="#">
+                        <div class="img-user abc">
+                            <img src="image/farha.jpeg" alt="Farha">  
+                        </div>
+                        <h4>Ekeyy</h4>
+                    </a>
+                </div>
+                <div class="obrolan-box">
+                    <a href="#">
+                        <div class="img-user abc">
+                            <img src="image/farha.jpeg" alt="Farha">  
+                        </div>
+                        <h4>Firdaa</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="obrolan-box">
+                <a href="#">
+                    <div class="img-user abc">
+                        <img src="image/farha.jpeg" alt="Aull">  
+                    </div>
+                    <h4>Aull</h4>
+                </a>
+            </div>
+            <div class="obrolan-box">
+                <a href="#">
+                    <h4>total skrng 11 jam </h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
